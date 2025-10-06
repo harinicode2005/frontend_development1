@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viha bakes</title>
+</head>
+<body bgcolor="black" text="White">
+    <center>
+        <h1>Welcome Our viha Bakes</h1>
+        <img src="cake.jfif"width="300px">
+        <br>
+        <p>Cake is a sweet dessert loved by people of all ages. It is made from ingredients like flour, sugar, eggs, butter, and baking powder, often flavored with vanilla, chocolate, or fruits. Cakes are baked until soft and fluffy, then decorated with icing, cream, or fruits. They come in many varieties such as sponge cake, cheesecake, and cupcakes. Cakes play a special role in celebrations like birthdays, weddings, and festivals, symbolizing joy and togetherness. The aroma and taste of a freshly baked cake bring happiness and sweetness to every occasion, making it a timeless treat enjoyed around the world. 🎂</p>
+    </center>
+    <hr>
+    <center>
+    <h3>Types Of Cakes</h3>
+    <h4>Vanilla Cake</h4>
+    <h4>Chocolate Cake</h4>
+    <h4>Black Forest Cake</h4>
+    <h4>White Forest Cake</h4>
+    <h4>Red Velvet Cake</h4>
+    </center>
+    <hr>
+    <center>
+    <img src="cake.jpg"width="500px"
+    </center>
+</body>
+</html>
