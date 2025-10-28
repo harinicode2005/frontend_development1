@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Random Number Generator</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f0f4f8;
+      font-family: Arial, sans-serif;
+    }
+    .container {
+      background-color: white;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+    h1 {
+      color: #333;
+    }
+    button {
+      background-color: #007bff;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 16px;
+    }
+    button:hover {
+      background-color: #0056b3;
+    }
+    #result {
+      margin-top: 20px;
+      font-size: 24px;
+      color: #007bff;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Random Number Generator</h1>
+    <p>Click the button to generate a random number between 1 and 100.</p>
+    <button onclick="generateRandom()">Generate</button>
+    <div id="result"></div>
+  </div>
+
+  <script>
+    function generateRandom() {
+      let randomNum = Math.floor(Math.random() * 100) + 1; // generates number from 1 to 100
+      document.getElementById('result').innerText = `🎲 Your Number: ${randomNum}`;
+    }
+  </script>
+</body>
+</html>
