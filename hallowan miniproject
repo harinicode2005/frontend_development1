@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Spooky Lights</title>
+<style>
+  body {
+    text-align: center;
+    transition: background 0.5s, color 0.5s;
+    padding: 100px;
+    font-family: 'Poppins', sans-serif;
+  }
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    background: orange;
+    color: white;
+    font-size: 18px;
+  }
+</style>
+</head>
+<body style="background-color: white; color: black;">
+  <h1 id="title">🎃 Happy Halloween!</h1>
+  <p id="message">Click the button to enter spooky mode 👻</p>
+  <button id="toggle">Spooky Mode</button>
+
+  <script>
+    const btn = document.getElementById('toggle');
+    const body = document.body;
+    const title = document.getElementById('title');
+    const message = document.getElementById('message');
+    let spooky = false;
+
+    btn.addEventListener('click', () => {
+      spooky = !spooky;
+      if (spooky) {
+        body.style.backgroundColor = "black";
+        body.style.color = "orange";
+        title.textContent = "👻 Boo! It's Spooky Time!";
+        message.textContent = "Click again to turn off the spook 😈";
+        btn.textContent = "Normal Mode";
+      } else {
+        body.style.backgroundColor = "white";
+        body.style.color = "black";
+        title.textContent = "🎃 Happy Halloween!";
+        message.textContent = "Click the button to enter spooky mode 👻";
+        btn.textContent = "Spooky Mode";
+      }
+    });
+  </script>
+</body>
+</html>
