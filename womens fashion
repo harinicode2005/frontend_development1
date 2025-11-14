@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women fashion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>WELCOME OUR WEBSITE</header>
+    <br><br><br><br><br>
+    <div id="car">
+       <div class="bag">
+           <h1>Saree</h1>
+           <img src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQM3Uy9-nkY_22qHVAKCZ5M8cv78sec1GBbP18tLlY1uRtz1Sgny0prdp0fwZE3hCIEBshXHi8ZytzAM0xeX5sfEVx4EmWZOaJEaOawPRJ9">
+           <h1>Rupees 790</h1>
+       </div>
+       <div class="bag">
+           <h1>Kurthi</h1>
+           <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQqCf-H_pPH0nEtORM4oLt7-i4PPEnhj875dw&s">
+           <h1>Rupees 600</h1>
+       </div>
+       <div class="bag">
+           <h1>T-Shirts</h1>
+           <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcR-Glk8cpxAXy8ljZADfCYs7tLHmdAK9o1-atzNRD_dbobZ6vGhO0NVGLo9gJpBDpcRCUyKucg1QvKkvEQxGIbn-ql8qhNZ1EqooC-TmTOKssNUFJUcLFQpg7mGIG_Q_DDdUA&usqp=CAc">
+           <h1>Rupees 490</h1>
+       </div>
+       <div class="bag">
+           <h1>Jeans</h1>
+           <img src="data:image/webp;base64,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">
+           <h1>Rupees 1089</h1>
+       </div>
+    </div>
+    <br><br><br>
+    <footer>
+        Womenfashion
+    </footer>
+</body>
+</html>
+
+
+//CSS
+.bag img{
+    width:200px;
+    height:250px;
+    border:3px gray;
+    border-radius: 30px;
+}
+.bag{
+    width:250px;
+    height: 400px;
+    border:3px black solid;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.55s ease-in-out;
+}
+#car{
+    display: flex;
+    justify-content: space-evenly;
+    background-color:white;
+}
+#car:hover.bag{
+    transform: scale(0.8);
+}
+.bag:hover{
+    transform: scale(1.2) rotate(5deg);
+    background-color: blueviolet;
+    border:3px black solid;
+    box-shadow: 10px 10px black;
+}
+header{
+    background-color: rgb(57, 7, 138);
+    font-size: 50px;
+    color: beige;
+    text-align: center;
+}
+footer{
+    background-color: rgb(57, 7, 138);
+    font-size: 50px;
+    color: beige;
+    text-align: center;
+}
